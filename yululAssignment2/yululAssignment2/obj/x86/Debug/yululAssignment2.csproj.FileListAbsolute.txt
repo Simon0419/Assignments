@@ -1,0 +1,27 @@
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\ResolveAssemblyReference.cache
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\MainWindow.g.cs
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\App.g.cs
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2_MarkupCompile.cache
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2_MarkupCompile.lref
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\bin\Debug\yululAssignment2.exe
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\bin\Debug\yululAssignment2.pdb
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\MainWindow.baml
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2.g.resources
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2.Properties.Resources.resources
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\GenerateResource.read.1.tlog
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\GenerateResource.write.1.tlog
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2.exe
+\\huntley\yulul\documents\visual studio 2010\Projects\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2.pdb
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2.exe
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2.pdb
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\bin\Debug\yululAssignment2.exe
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\bin\Debug\yululAssignment2.pdb
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\ResolveAssemblyReference.cache
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\MainWindow.g.cs
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\App.g.cs
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2_MarkupCompile.cache
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\MainWindow.baml
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2.g.resources
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\yululAssignment2.Properties.Resources.resources
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\GenerateResource.read.1.tlog
+\\huntley\yulul\Desktop\yululAssignment2\yululAssignment2\obj\x86\Debug\GenerateResource.write.1.tlog

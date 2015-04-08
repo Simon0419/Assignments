@@ -1,0 +1,436 @@
+/* 
+-----------------------------------
+global
+-----------------------------------
+*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font: 81.25%/1.25 helvetica, arial, sans-serif;
+	color:#333;
+	font-size:100%;
+	/*background-color:#3F3;*/
+}
+
+a:link { color: #5C542D; }
+a:visited { color: #6030BF; }
+a:hover { color: #000; }
+a:active, a:focus { color: #BF3048; }
+
+
+img { border: none; }
+
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0 0 .5em;
+	color: #5C542D;
+}
+
+h1
+{
+	font-size: 180%;
+	font-weight: normal;
+}
+
+h2 { font-size: 150%; }
+h3 { font-size: 125%; }
+h4 { font-size: 110%; }
+h5 { font-size: 100%; }
+
+
+/* 
+-----------------------------------
+for tables
+-----------------------------------
+*/
+#maincontent  table{
+	border: 1px solid #000;
+	border-spacing: 0px;
+	width: 80%;
+	caption-side:top;
+}
+
+#maincontent  th {
+
+	background-color: #6030BF;
+	border: 1px solid #000;
+	color:#FFF;
+	text-align:center;
+}
+#maincontent  td {
+	border: 1px solid #6030BF;
+	background-color: #D6CFE6;
+	color:#000;
+}
+
+#maincontent  table caption
+{
+		text-align:left;
+		color:#6030BF;
+		font-weight:bold;
+}
+
+
+/* 
+-----------------------------------
+container
+-----------------------------------
+*/
+
+#container
+{
+	width:100%;
+	padding:0;
+	margin: 0 auto;
+	/*
+	background-color:#FF3;
+	outline-color:#633;
+	outline-width:thick;
+	outline-style:dashed;
+	*/
+}
+
+/*
+---------------------------
+for grid
+----------------------------
+*/
+
+.line {
+		float:left;
+		width:100%;
+		display:block;
+		position:relative;
+		background-color:#E6CF73;
+}
+
+.item {
+	position:relative;
+	float:left;
+	left:100%;
+	
+}
+
+
+/* 
+-----------------------------------
+header
+-----------------------------------
+*/
+
+#header { 
+		position: relative;
+		font-size:250%;
+		font-weight:bold;
+		background-color:#E6CF73;
+		margin:auto;
+		width:100%;
+		}
+#header .actual {
+		padding-left:.5em;
+		padding-top:.5em;
+		padding-bottom:.5em;
+}
+
+/* 
+-----------------------------------
+utilities
+-----------------------------------
+*/
+
+#utilities
+{
+	position: absolute;
+	/*width: 900px;*/
+	width:100%;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 5px;
+	font-size:40%;
+	text-align: right;
+}
+
+
+#utilities li
+{
+	display: inline;
+	list-style-type: none;
+	margin: 0 0 0 20px;
+	padding: 0 0 0 20px;
+}
+
+
+#utilities li a { text-decoration: none; }
+
+
+/*
+----------------------------------
+navigation
+-----------------------------------
+*/
+
+#sidenav {
+	margin-left:-100%;
+	width:20%;
+	background-color:#E6CF73;
+	border-top: 1ex solid #5C542D;
+	/*border:1px solid #063;*/
+}
+
+
+#sidenav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#sidenav li{
+	border-bottom:1ex solid #5C542D;
+}
+
+#sidenav li a:link, #sidenav li a:visited{
+	font-size:100%;
+	display:block;
+	padding:0.4em 0 0.4em 0.5em;
+	border-left: 1em solid #5C542D;
+	/*border-right: 1px solid #711515;*/
+	color:#333333;
+	text-decoration:none;
+	width:187px;  /*calculate and set - to avoid special IE < 8 hack*/
+}
+
+#sidenav li a:hover {
+	background-color:#5C542D;
+	color:#FFFFFF;
+}
+
+/*coping with second layer*/
+#sidenav ul li  ul{
+	margin-left:1em;
+	display:none;
+}
+
+#sidenav ul li:hover ul{
+	display:block;
+}
+
+#sidenav ul li a:hover ul li{
+	border-bottom:1px solid #5C542D;
+	margin:0;
+}
+
+#sidenav ul ul a:link, #sidenav ul ul a:visited{
+	background-color:#E6E1CF;
+	color:#333333;
+}
+
+#sidenav ul ul a:hover{
+	background-color:#5C542D;
+	color:#FFFFFF;
+}
+
+
+/* make the current page link look different -so we know where we are*/
+#sidenav li.current a:after {
+		color:#6030BF;
+		font-weight:bold;
+		content:" *current page"; 
+}
+
+/*
+----------------------------------
+maincontent
+----------------------------------
+*/
+#maincontent {
+	margin-left:-80%;
+	width:60%;
+	background-color:#E6E1CF;
+	/*border:1px solid #063;
+	*/	
+}
+
+#maincontent .actual{
+	padding: 0 2em 0 2em;
+}
+
+
+/*
+----------------------------------
+extras
+----------------------------------
+*/
+#extras {
+	margin-left:-20%;
+	width:20%;
+	color:#6030BF;
+	background-color:#D6CFE6;
+}
+
+#extras .actual{
+	padding: 3em 2em 3em 2em;	
+}
+
+/* 
+-----------------------------------
+footer
+-----------------------------------
+*/
+
+#footer
+{
+	border-top: 1ex solid #5C542D;
+	width:100%;
+	clear: both;
+	/*color: #fff;*/
+	text-align: right;
+	background: #E6CF73;
+}
+
+#footer .actual{
+	padding: 5px 10px;
+}
+
+
+/*
+--------------------------------------
+forms
+--------------------------------------
+*/
+#maincontent form{
+		margin:1em 0;
+		padding:0;
+		/*background-color:#FF0;*/
+}
+
+#maincontent form *{
+		margin:0;
+		padding:0;
+		/*background-color:#3FC;*/
+}
+
+#maincontent form fieldset{
+		border:none;
+		margin:0 0 1em;
+		/*background-color:#C09;*/
+}
+
+#maincontent form legend span{
+		display:block;
+		font-weight:bold;
+		font-size:120%;
+		padding:0 0 10px;
+		/*background-color:#6C6;*/
+}
+
+#maincontent form div {
+	float:left;
+	width:100%;
+	clear:both;
+	padding:5px 0;
+	/*background-color:#63F;*/
+}
+
+#maincontent form div.required {
+		background-color:#D6CFE6;
+		border-color:#6030BF;
+}
+
+#maincontent form div.required:after {
+	  color:#6030BF;
+	  content:"*required";
+		background-color:#D6CFE6;
+		border-color:#6030BF;
+}
+
+#maincontent form  label{
+		/*background-color:#0C9;*/
+}
+
+
+#maincontent form  label.writing{
+	display:block;
+	float:left;
+	width:30%;
+	margin:0;
+	padding:3px 0 0;
+	text-align:right;
+	/*background-color:#09F;*/
+}
+
+
+
+#maincontent form span.info{
+	display:block;
+	float:left;
+	width:100%;
+	margin:0 10px 0 0;
+	padding:3px 0 0;
+	text-align:center;
+	background-color:#E6CF73;
+}
+
+#maincontent form span.errormsg{
+	display:block;
+	float:left;
+	width:100%;
+	margin:0 10px 0 0;
+	padding:3px 0 0;
+	text-align:center;
+	background-color:#6030BF;
+	color:#FFF;
+	font-size:150%;
+}
+
+
+#maincontent form textarea, #maincontent form select,
+#maincontent form input[type="text"], #maincontent form input[type="password"]
+{
+	float:left;
+	width:60%;
+	margin:0;
+	padding:0;
+	border:1px solid black;
+	font-size:100%;
+}
+
+#maincontent form div.choices {
+	margin: 0 0 0 30%;
+	width:60%;
+	text-align:left;
+	/*background-color:#96C;*/
+}
+
+#maincontent form input[type="submit"] {
+		float:right;
+		font-size:150%;
+}
+
+#maincontent form input[type="reset"] {
+		float:left;
+		font-size:150%;
+}
+
+div.cloud{ 
+    font-family:"Courier New", Courier, mono;
+    border-color:#CC00FF; 
+    border-style:double;
+}
+
+span.cl1{ 
+    font-size:small; 
+    color:#CC99FF;
+}
+
+span.cl2{ 
+    font-size:medium; 
+    color:#CC33FF;
+}
+
+span.cl3{ 
+    font-size:large; 
+    color:#CC00FF;
+}

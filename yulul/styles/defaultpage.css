@@ -1,0 +1,273 @@
+/*
+defaultpage.css
+standard style sheet for KXT209 / 309 2009
+author: Robyn Gibson
+March 2009
+
+*/
+/* 
+-----------------------------------
+global
+-----------------------------------
+*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font: 81.25%/1.25 helvetica, arial, sans-serif;
+	color:#333;
+	/*background-color:#3F3;*/
+}
+
+a:link { color: #5C542D; }
+a:visited { color: #6030BF; }
+a:hover { color: #000; }
+a:active, a:focus { color: #BF3048; }
+
+
+img { border: none; }
+
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0 0 .5em;
+	color: #5C542D;
+}
+
+h1
+{
+	font-size: 180%;
+	font-weight: normal;
+}
+
+h2 { font-size: 150%; }
+h3 { font-size: 125%; }
+h4 { font-size: 110%; }
+h5 { font-size: 100%; }
+
+
+/* 
+-----------------------------------
+container
+-----------------------------------
+*/
+
+#container
+{
+	width:100%;
+	padding:0;
+	margin: 0 auto;
+	/*
+	background-color:#FF3;
+	outline-color:#633;
+	outline-width:thick;
+	outline-style:dashed;
+	*/
+}
+
+/*
+---------------------------
+for grid
+----------------------------
+*/
+
+.line {
+		float:left;
+		width:100%;
+		display:block;
+		position:relative;
+		background-color:#E6CF73;
+}
+
+.item {
+	position:relative;
+	float:left;
+	left:100%;
+	
+}
+
+
+/* 
+-----------------------------------
+header
+-----------------------------------
+*/
+
+#header { 
+		position: relative;
+		font-size:250%;
+		font-weight:bold;
+		background-color:#E6CF73;
+		margin:auto;
+		width:100%;
+		}
+#header .actual {
+		padding-left:.5em;
+		padding-top:.5em;
+		padding-bottom:.5em;
+}
+
+/* 
+-----------------------------------
+utilities
+-----------------------------------
+*/
+
+#utilities
+{
+	position: absolute;
+	/*width: 900px;*/
+	width:100%;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 5px;
+	font-size:40%;
+	text-align: right;
+}
+
+
+#utilities li
+{
+	display: inline;
+	list-style-type: none;
+	margin: 0 0 0 20px;
+	padding: 0 0 0 20px;
+}
+
+
+#utilities li a { text-decoration: none; }
+
+
+/*
+----------------------------------
+navigation
+-----------------------------------
+*/
+
+#sidenav {
+	margin-left:-100%;
+	width:20%;
+	background-color:#E6CF73;
+	border-top: 1ex solid #5C542D;
+	/*border:1px solid #063;*/
+}
+
+
+#sidenav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#sidenav li{
+	border-bottom:1ex solid #5C542D;
+}
+
+#sidenav li a:link, #sidenav li a:visited{
+	font-size:100%;
+	display:block;
+	padding:0.4em 0 0.4em 0.5em;
+	border-left: 1em solid #5C542D;
+	/*border-right: 1px solid #711515;*/
+	color:#333333;
+	text-decoration:none;
+	width:187px;  /*calculate and set - to avoid special IE < 8 hack*/
+}
+
+#sidenav li a:hover {
+	background-color:#5C542D;
+	color:#FFFFFF;
+}
+
+/*coping with second layer*/
+#sidenav ul li  ul{
+	margin-left:1em;
+	display:none;
+}
+
+#sidenav ul li:hover ul{
+	display:block;
+}
+
+#sidenav ul li a:hover ul li{
+	border-bottom:1px solid #5C542D;
+	margin:0;
+}
+
+#sidenav ul ul a:link, #sidenav ul ul a:visited{
+	background-color:#E6E1CF;
+	color:#333333;
+}
+
+#sidenav ul ul a:hover{
+	background-color:#5C542D;
+	color:#FFFFFF;
+}
+
+
+/* make the current page link look different -so we know where we are*/
+#sidenav li.current a:after {
+		color:#6030BF;
+		font-weight:bold;
+		content:" *current page"; 
+}
+
+/*
+----------------------------------
+maincontent
+----------------------------------
+*/
+#maincontent {
+	margin-left:-80%;
+	width:60%;
+	background-color:#E6E1CF;
+	/*border:1px solid #063;
+	*/	
+}
+
+#maincontent .actual{
+	padding: 0 2em 0 2em;
+}
+
+#maincontent form div.required:after {
+	color:#F00;
+	content:"*required";
+}
+/*
+----------------------------------
+extras
+----------------------------------
+*/
+#extras {
+	margin-left:-20%;
+	width:20%;
+	color:#6030BF;
+	background-color:#D6CFE6;
+}
+
+#extras .actual{
+	padding: 3em 2em 3em 2em;	
+}
+
+/* 
+-----------------------------------
+footer
+-----------------------------------
+*/
+
+#footer
+{
+	border-top: 1ex solid #5C542D;
+	width:100%;
+	clear: both;
+	/*color: #fff;*/
+	text-align: right;
+	background: #E6CF73;
+}
+
+#footer .actual{
+	padding: 5px 10px;
+}
+
+
